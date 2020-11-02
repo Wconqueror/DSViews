@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DSViews_Example' do
+  pod 'DSViews', :path => '../'
+
+  target 'DSViews_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
