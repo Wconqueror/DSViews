@@ -1,0 +1,6 @@
+framework module DSViews {
+  umbrella header "DSViews-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - DSViews (0.1.0)
+
+DEPENDENCIES:
+  - DSViews (from `../`)
+
+EXTERNAL SOURCES:
+  DSViews:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DSViews: 499857ffbfcc4ba2a39dd6c92579fc718ba21b20
+
+PODFILE CHECKSUM: e5bb1f062d27a3028ffe4a2a4e501b7a3b04cb68
+
+COCOAPODS: 1.9.3
