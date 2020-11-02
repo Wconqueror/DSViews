@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0D8954D33B1EEDF16D67A01EB6D37941 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		18B5DE05254FB52B00024EF7 /* HomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B5DE03254FB52B00024EF7 /* HomeViewController.h */; };
+		18B5DE06254FB52B00024EF7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5DE04254FB52B00024EF7 /* HomeViewController.m */; };
 		36520614D00BDE22380A8D4EC9CEE99A /* Pods-DSViews_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9E6B12384885AAD3E16DCB265698BB /* Pods-DSViews_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E131D088ECCD68C06C7260DBAA871B2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8899C407D5DEC2C4CE520E7D22F957D2 /* ReplaceMe.m */; };
 		47E0D4F69D1AEE7A03B3F2288E35FD98 /* DSViews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C825055A7C5F91158ACDED472536A /* DSViews-dummy.m */; };
 		56067BD6903900596070B628DF4F06DB /* Pods-DSViews_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7C3612943F1754AEE14EEDE603B1F8 /* Pods-DSViews_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		612CF39605BBC5C3E4FC9EF827C08714 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -40,34 +41,35 @@
 		0A9E6B12384885AAD3E16DCB265698BB /* Pods-DSViews_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSViews_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0DCA0AE1B3B848499E9130E45D8BFC27 /* Pods-DSViews_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSViews_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0F7C825055A7C5F91158ACDED472536A /* DSViews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DSViews-dummy.m"; sourceTree = "<group>"; };
-		1642EB5414EF7FF2F7B9E196C62ECD20 /* DSViews.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DSViews.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1642EB5414EF7FF2F7B9E196C62ECD20 /* DSViews.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DSViews.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		18B5DE03254FB52B00024EF7 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		18B5DE04254FB52B00024EF7 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		1AB0E27BC45AFE2DF018F2F0B4DB728A /* Pods-DSViews_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSViews_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		24AE7ABB7984FF7A24D2B44BF0179888 /* DSViews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSViews-umbrella.h"; sourceTree = "<group>"; };
 		28E30810317EFAEF232C8444B7D0E0CD /* DSViews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DSViews.release.xcconfig; sourceTree = "<group>"; };
-		31FDB795C95C2D5A3F6FA98C343C47E1 /* Pods_DSViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DSViews_Tests.framework; path = "Pods-DSViews_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FDB795C95C2D5A3F6FA98C343C47E1 /* Pods_DSViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSViews_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3A62E2B6BEF786D83B374B6079435E7A /* Pods-DSViews_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSViews_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3CC38A2106BD49A1363663B1092E396B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3EB729E2C81E9CAE7C561CCF21348BAE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3CC38A2106BD49A1363663B1092E396B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3EB729E2C81E9CAE7C561CCF21348BAE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		413560F4683CB7CA2290FBE6A165DEFC /* Pods-DSViews_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DSViews_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		597F9BC4D66BE27E81D3B248233CF121 /* Pods-DSViews_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSViews_Example-Info.plist"; sourceTree = "<group>"; };
 		5DC95D595BD98E2A7E11AEBE44B3B0ED /* Pods-DSViews_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DSViews_Tests.modulemap"; sourceTree = "<group>"; };
 		5F9BF5B012946ADF2D6D0B150779C51C /* Pods-DSViews_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSViews_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		63CD01B910DAE45628D97CF2A2F9A8D7 /* DSViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DSViews.framework; path = DSViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CD01B910DAE45628D97CF2A2F9A8D7 /* DSViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66025B7DC5DF7016623BA413CDC47335 /* Pods-DSViews_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSViews_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6A64B18AB59B449DEF5F4814A418D1D2 /* DSViews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DSViews.debug.xcconfig; sourceTree = "<group>"; };
 		6B6C7A31349B62737D347DFFC58BEC2E /* Pods-DSViews_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSViews_Tests-dummy.m"; sourceTree = "<group>"; };
 		6E7C3612943F1754AEE14EEDE603B1F8 /* Pods-DSViews_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSViews_Example-umbrella.h"; sourceTree = "<group>"; };
 		726B94947E9B120003EC4FDF3F407310 /* Pods-DSViews_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DSViews_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8899C407D5DEC2C4CE520E7D22F957D2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DSViews/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F24C039EE2F274B0E218A20117F58DF /* Pods-DSViews_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSViews_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A1C1F3B91B0D8F3B202E88E8B0DDC41E /* DSViews-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSViews-prefix.pch"; sourceTree = "<group>"; };
 		A4B478DC01904E5B4A1AD0CD73BBB8C6 /* DSViews-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DSViews-Info.plist"; sourceTree = "<group>"; };
 		A5BCE0531E19978970BE4C33E63E444A /* Pods-DSViews_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DSViews_Example.modulemap"; sourceTree = "<group>"; };
 		A8405C82576E6967D1ED471BBB22D48C /* Pods-DSViews_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSViews_Example-dummy.m"; sourceTree = "<group>"; };
 		D46280D389685F53D78164F7E46BC88E /* Pods-DSViews_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSViews_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F12ED10645B4BDAEC16D9DE860EE8F53 /* Pods_DSViews_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DSViews_Example.framework; path = "Pods-DSViews_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12ED10645B4BDAEC16D9DE860EE8F53 /* Pods_DSViews_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSViews_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF48BAD285392068A36CF755423D8D19 /* DSViews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DSViews.modulemap; sourceTree = "<group>"; };
 		FFAF3F825808E0723EFE9442CD2C70A5 /* Pods-DSViews_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSViews_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +108,16 @@
 				DBEDC72C061F5844183B7AF36E43F290 /* DSViews */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		18B5DE02254FB51700024EF7 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				18B5DE03254FB52B00024EF7 /* HomeViewController.h */,
+				18B5DE04254FB52B00024EF7 /* HomeViewController.m */,
+			);
+			name = home;
+			path = DSViews/Classes/home;
 			sourceTree = "<group>";
 		};
 		5B176E2B23938189E0A00001AE134250 /* Pods-DSViews_Tests */ = {
@@ -205,7 +217,7 @@
 		DBEDC72C061F5844183B7AF36E43F290 /* DSViews */ = {
 			isa = PBXGroup;
 			children = (
-				8899C407D5DEC2C4CE520E7D22F957D2 /* ReplaceMe.m */,
+				18B5DE02254FB51700024EF7 /* home */,
 				F0D7CBCB522BE0B51434A01FE527786D /* Pod */,
 				83205B5526DAEAD7CB7EF0B1121537C4 /* Support Files */,
 			);
@@ -238,6 +250,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B5DE05254FB52B00024EF7 /* HomeViewController.h in Headers */,
 				ABDF3CF085B822AA2031158AE00DBDA7 /* DSViews-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,7 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47E0D4F69D1AEE7A03B3F2288E35FD98 /* DSViews-dummy.m in Sources */,
-				3E131D088ECCD68C06C7260DBAA871B2 /* ReplaceMe.m in Sources */,
+				18B5DE06254FB52B00024EF7 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,8 +537,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
